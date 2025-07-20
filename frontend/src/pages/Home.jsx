@@ -145,7 +145,7 @@ const Home = () => {
                     textAlign: { xs: "center", md: "left" },
                   }}
                 >
-                  With over 10 years of experience in competitive chess and
+                  With over 8 years of experience in competitive chess and
                   coaching, Tushar Deshpande has dedicated his life to nurturing
                   young talent and promoting the royal game. He holds a FIDE
                   Classical rating of 1404, a Rapid rating of 1420, and a Blitz
@@ -170,7 +170,7 @@ const Home = () => {
                       variant={isMobile ? "h5" : "h4"}
                       sx={{ color: "#FFD700" }}
                     >
-                      10+
+                      8+
                     </Typography>
                     <Typography sx={{ color: "#FFF" }}>
                       Years Experience
@@ -181,7 +181,7 @@ const Home = () => {
                       variant={isMobile ? "h5" : "h4"}
                       sx={{ color: "#FFD700" }}
                     >
-                      200+
+                      100+
                     </Typography>
                     <Typography sx={{ color: "#FFF" }}>
                       Students Trained

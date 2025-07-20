@@ -20,13 +20,6 @@ export default function Footer() {
     { title: "Login", path: "/login" },
   ];
 
-  const socialLinks = [
-    { icon: Facebook, url: "https://www.facebook.com/" },
-    { icon: Twitter, url: "https://x.com/" },
-    { icon: Instagram, url: "https://www.instagram.com/deshpande.chess.academy/" },
-    { icon: Youtube, url: "https://www.youtube.com/" },
-  ];
-
   return (
     <footer
       className="bg-black text-gray-300"
@@ -47,7 +40,7 @@ export default function Footer() {
             </div>
             <p className="text-sm text-gray-400">
               Empowering minds through the art of chess. Join us in mastering
-              strategy, tactics, and critical thinking with over 10 years of
+              strategy, tactics, and critical thinking with over 20 years of
               excellence in chess education.
             </p>
           </div>
@@ -115,10 +108,10 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex gap-6">
-              {socialLinks.map(({ icon: Icon, url }, index) => (
+              {[Facebook, Twitter, Instagram, Youtube].map((Icon, index) => (
                 <a
                   key={index}
-                  href={url}
+                  href="#"
                   className="hover:text-yellow-400 transition-colors text-gray-400"
                   aria-label="Social Media"
                 >
