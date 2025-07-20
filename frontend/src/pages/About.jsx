@@ -310,7 +310,7 @@ const About = () => {
                       variant={isMobile ? "h5" : "h4"}
                       sx={{ color: "#FFD700" }}
                     >
-                      8+
+                      10+
                     </Typography>
                     <Typography sx={{ color: "#FFF" }}>
                       Years of Excellence
