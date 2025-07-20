@@ -23,7 +23,7 @@ export default function Footer() {
   const socialLinks = [
     { icon: Facebook, url: "https://www.facebook.com/" },
     { icon: Twitter, url: "https://x.com/" },
-    { icon: Instagram, url: "https://www.instagram.com/deshpande.chess.academy" },
+    { icon: Instagram, url: "https://www.instagram.com/deshpande.chess.academy/" },
     { icon: Youtube, url: "https://www.youtube.com/" },
   ];
 
