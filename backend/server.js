@@ -14,8 +14,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://deshpande-chess-academy-frontend.vercel.app/",
-      "https://www.deshpandechessacademy.com/",
+      "https://deshpande-chess-academy-frontend.vercel.app",
+      "https://www.deshpandechessacademy.com",
       "http://localhost:3000",
       "http://localhost:5173", // Vite's default port
     ],
