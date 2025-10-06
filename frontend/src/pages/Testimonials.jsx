@@ -13,6 +13,14 @@ import {
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 
+// Import testimonial images
+import person1 from "../assets/testimonialsImages/person1.jpg";
+import person2 from "../assets/testimonialsImages/person2.jpg";
+import person3 from "../assets/testimonialsImages/person3.jpg";
+import person4 from "../assets/testimonialsImages/person4.jpg";
+import person5 from "../assets/testimonialsImages/person5.jpg";
+import person6 from "../assets/testimonialsImages/person6.jpg";
+
 // Mock testimonial data
 const MOCK_TESTIMONIALS = [
   {
@@ -21,7 +29,7 @@ const MOCK_TESTIMONIALS = [
     rating: 5,
     message: "The Solo Gold program exceeded my expectations! The 24 sessions of personalized coaching helped me improve my FIDE rating by 200 points. The 45-minute individual sessions were perfect for deep analysis of my games.",
     course: "Solo Gold",
-    image: "person1.jpg"
+    image: person1
   },
   {
     id: 2,
@@ -29,7 +37,7 @@ const MOCK_TESTIMONIALS = [
     rating: 5,
     message: "I started with the Demo Session and was so impressed that I immediately enrolled in Solo Bronze. The individual coaching approach really works - 4 sessions transformed my opening repertoire completely!",
     course: "Solo Bronze",
-    image: "person2.jpg"
+    image: person2
   },
   {
     id: 3,
@@ -37,7 +45,7 @@ const MOCK_TESTIMONIALS = [
     rating: 5,
     message: "The Gold Group sessions are fantastic value for money! 12 sessions of quality group coaching at just ₹1999. The 55-minute sessions allow for thorough discussion and learning from other students too.",
     course: "Gold Group",
-    image: "person3.jpg"
+    image: person3
   },
   {
     id: 4,
@@ -45,7 +53,7 @@ const MOCK_TESTIMONIALS = [
     rating: 5,
     message: "Real Gold membership has been incredible! 24 offline sessions every Sunday at the academy gave me access to unlimited resources. The atmosphere and peer learning is unmatched.",
     course: "Real Gold",
-    image: "person4.jpg"
+    image: person4
   },
   {
     id: 5,
@@ -53,7 +61,7 @@ const MOCK_TESTIMONIALS = [
     rating: 4,
     message: "Solo Silver was perfect for my intermediate level. 12 sessions of focused individual coaching helped me understand complex middlegame positions. Great value at ₹4999!",
     course: "Solo Silver",
-    image: "person5.jpg"
+    image: person5
   },
   {
     id: 6,
@@ -61,7 +69,7 @@ const MOCK_TESTIMONIALS = [
     rating: 5,
     message: "I started with Silver Group and the results were amazing! The 4 sessions of group coaching built my confidence and I made friends with other chess enthusiasts. The group learning environment is fantastic!",
     course: "Silver Group",
-    image: "person6.jpg"
+    image: person6
   }
 ];
 
@@ -140,7 +148,7 @@ const Testimonials = () => {
                 <CardContent sx={{ pt: 4, flexGrow: 1 }}>
                   <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
                     <Avatar
-                      src={`/src/assets/testimonialsImages/${testimonial.image}`}
+                      src={testimonial.image}
                       sx={{
                         bgcolor: "#FFD700",
                         color: "black",
