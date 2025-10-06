@@ -21,17 +21,17 @@ const contactInfo = [
   {
     icon: <LocationOnIcon sx={{ fontSize: 40 }} />,
     title: "Visit Us",
-    details: ["123 Chess Street", "Chessville, CH 12345"],
+    details: ["Chinchavali, Goregaon", "Maharashtra 402103"],
   },
   {
     icon: <PhoneIcon sx={{ fontSize: 40 }} />,
     title: "Call Us",
-    details: ["+1 (555) 123-4567", "Mon-Fri: 9am-6pm"],
+    details: ["+91 8007646492", "Mon-Fri: 9am-6pm"],
   },
   {
     icon: <EmailIcon sx={{ fontSize: 40 }} />,
     title: "Email Us",
-    details: ["info@chessacademy.com", "support@chessacademy.com"],
+    details: ["deshpande.chess.academy.web@gmail.com"],
   },
 ];
 

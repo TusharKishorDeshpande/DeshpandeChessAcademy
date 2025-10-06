@@ -17,45 +17,51 @@ import { Quote } from "lucide-react";
 const MOCK_TESTIMONIALS = [
   {
     id: 1,
-    name: "Aryan Sharma",
+    name: "Omkar Andhere",
     rating: 5,
-    message: "The coaching at Deshpande Chess Academy transformed my game completely. I went from a beginner to winning my first local tournament in just 8 months!",
-    course: "Advanced Strategy"
+    message: "The Solo Gold program exceeded my expectations! The 24 sessions of personalized coaching helped me improve my FIDE rating by 200 points. The 45-minute individual sessions were perfect for deep analysis of my games.",
+    course: "Solo Gold",
+    image: "person1.jpg"
   },
   {
     id: 2,
-    name: "Priya Patel",
+    name: "Omkar Chavan",
     rating: 5,
-    message: "The instructors are incredibly patient and knowledgeable. My daughter has improved tremendously and enjoys every class. Highly recommended for children!",
-    course: "Junior Champions Program"
+    message: "I started with the Demo Session and was so impressed that I immediately enrolled in Solo Bronze. The individual coaching approach really works - 4 sessions transformed my opening repertoire completely!",
+    course: "Solo Bronze",
+    image: "person2.jpg"
   },
   {
     id: 3,
-    name: "Vikram Mehta",
-    rating: 4,
-    message: "Great academy with excellent teaching methods. The personalized feedback after each session has been invaluable for my improvement.",
-    course: "Tournament Preparation"
+    name: "Vedant Mehta",
+    rating: 5,
+    message: "The Gold Group sessions are fantastic value for money! 12 sessions of quality group coaching at just ₹1999. The 55-minute sessions allow for thorough discussion and learning from other students too.",
+    course: "Gold Group",
+    image: "person3.jpg"
   },
   {
     id: 4,
-    name: "Ananya Desai",
+    name: "Kashif Mhalunkar",
     rating: 5,
-    message: "I've tried several chess academies before, but the structured curriculum here is by far the best. My rating has improved by 300 points in just one year!",
-    course: "FIDE Rating Improvement"
+    message: "Real Gold membership has been incredible! 24 offline sessions every Sunday at the academy gave me access to unlimited resources. The atmosphere and peer learning is unmatched.",
+    course: "Real Gold",
+    image: "person4.jpg"
   },
   {
     id: 5,
-    name: "Rohan Kapoor",
+    name: "Shifa Shaikh",
     rating: 4,
-    message: "The online classes are just as effective as in-person sessions. The coaches use excellent visual aids and interactive tools to explain complex concepts.",
-    course: "Online Masterclass"
+    message: "Solo Silver was perfect for my intermediate level. 12 sessions of focused individual coaching helped me understand complex middlegame positions. Great value at ₹4999!",
+    course: "Solo Silver",
+    image: "person5.jpg"
   },
   {
     id: 6,
-    name: "Neha Singh",
+    name: "Arya Jadhav",
     rating: 5,
-    message: "My son has developed not just chess skills but also improved concentration and logical thinking. The academy focuses on overall development through chess.",
-    course: "Beginner Chess Course"
+    message: "I started with Silver Group and the results were amazing! The 4 sessions of group coaching built my confidence and I made friends with other chess enthusiasts. The group learning environment is fantastic!",
+    course: "Silver Group",
+    image: "person6.jpg"
   }
 ];
 
@@ -134,6 +140,7 @@ const Testimonials = () => {
                 <CardContent sx={{ pt: 4, flexGrow: 1 }}>
                   <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
                     <Avatar
+                      src={`/src/assets/testimonialsImages/${testimonial.image}`}
                       sx={{
                         bgcolor: "#FFD700",
                         color: "black",
