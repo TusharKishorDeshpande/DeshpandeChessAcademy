@@ -162,7 +162,7 @@ const About = () => {
                 <Typography variant="body1" paragraph>
                   After Mr. Kishor Deshpande's untimely passing in 2024, his
                   legacy lives on through his son, Mr. Tushar Deshpande, who has
-                  been coaching students alongside his father for the past 8
+                  been coaching students alongside his father for the past 10
                   years. Now the co-founder and head coach, Tushar continues to
                   inspire and guide students with the same commitment and vision
                   his father instilled in the academy.

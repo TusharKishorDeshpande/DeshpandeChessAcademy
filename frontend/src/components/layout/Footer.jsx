@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <p className="text-sm text-gray-400">
               Empowering minds through the art of chess. Join us in mastering
-              strategy, tactics, and critical thinking with over 20 years of
+              strategy, tactics, and critical thinking with over 10 years of
               excellence in chess education.
             </p>
           </div>
