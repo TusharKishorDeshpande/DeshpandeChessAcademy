@@ -345,7 +345,7 @@ const About = () => {
               gutterBottom
               sx={{ color: "#FFD700", fontWeight: "bold", mb: 4 }}
             >
-              Our Mission & Values
+              Our Mission & Valuess
             </Typography>
           </motion.div>
 
